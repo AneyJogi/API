@@ -23,6 +23,7 @@ public class SerializationWithObjectSpouse {
 		ObjectMapper omap = new ObjectMapper();
 		omap.writeValue(new File("./objArray.json"),objArr);
 		
+		
 	}
 
 }

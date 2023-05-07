@@ -14,6 +14,7 @@ public class EmployeeSerialization {
 	@Test
 	public void employSeri() throws JsonGenerationException, JsonMappingException, IOException
 	{
+		
 		EmployeeDetails emp = new EmployeeDetails("Aney",104,"aney.j@gmail.com",94970930);
 		
 		ObjectMapper omap= new ObjectMapper();

@@ -20,6 +20,7 @@ public class SerializationWithArray {
 		ObjectMapper omap = new ObjectMapper();
 		omap.writeValue(new File("./empArray.json"),empArr);
 		
+		
 	}
 
 }

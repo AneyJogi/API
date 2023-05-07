@@ -14,6 +14,7 @@ public class DeSerializationWithObjectArraySpouse {
 	@Test
 	public void employDeserial() throws JsonParseException, JsonMappingException, IOException
 	{
+		
 		ObjectMapper omap = new ObjectMapper();
 		EmployeeDetailsWithObjectSpouse data = omap.readValue(new File("./objArray.json"), EmployeeDetailsWithObjectSpouse.class);
 		System.out.println(data.getName());

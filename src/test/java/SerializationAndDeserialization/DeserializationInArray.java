@@ -22,6 +22,7 @@ public class DeserializationInArray {
 	System.out.println(data.getMobNo()[0]+" "+data.getMobNo()[1]);
 	System.out.println();
 	
+	
 	}
 
 }

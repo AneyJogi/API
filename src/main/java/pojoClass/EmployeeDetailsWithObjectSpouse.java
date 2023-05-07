@@ -6,6 +6,7 @@ public class EmployeeDetailsWithObjectSpouse{
 	long mobNo;
 	Spouse spouse;
 	
+	
 	public EmployeeDetailsWithObjectSpouse(String name, long mobNo, Spouse spouse) {
 		this.name = name;
 		this.mobNo = mobNo;

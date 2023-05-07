@@ -7,6 +7,7 @@ public class EmployeeDetailsInArray {
 	long[] mobNo;
 	
 	
+	
 	public EmployeeDetailsInArray(String name, int empid, String mailId, long[] mobNo) {
 		this.name = name;
 		this.empid = empid;

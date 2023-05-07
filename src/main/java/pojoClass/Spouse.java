@@ -25,6 +25,7 @@ public class Spouse {
 	public long[] getMobNo() {
 		return mobNo;
 	}
+	
 
 
 	public void setName(String name) {

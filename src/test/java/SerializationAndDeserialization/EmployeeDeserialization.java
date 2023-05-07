@@ -15,6 +15,7 @@ public class EmployeeDeserialization {
 	
 	public void employDeserial() throws Throwable, JsonMappingException, IOException
 	{
+		
 		ObjectMapper omap = new ObjectMapper();
 		EmployeeDetails data = omap.readValue(new File("./emp.json"), EmployeeDetails.class);
 		
