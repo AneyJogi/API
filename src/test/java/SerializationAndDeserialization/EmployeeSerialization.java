@@ -16,7 +16,7 @@ public class EmployeeSerialization {
 	{
 		
 		EmployeeDetails emp = new EmployeeDetails("Aney",104,"aney.j@gmail.com",94970930);
-		
+	
 		ObjectMapper omap= new ObjectMapper();
 		
 		//

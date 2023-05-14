@@ -25,30 +25,14 @@ public class EmployeeDetails {
 	public String getName() {
 		return name;
 	}
-	public void setName(String name) {
-		this.name = name;
-	}
+
 	public int getEmpid() {
 		return empid;
-	}
-	public void setEmpid(int empid) {
-		this.empid = empid;
 	}
 	public String getMailid() {
 		return mailid;
 	}
-	public void setMailid(String mailid) {
-		this.mailid = mailid;
-	}
 	public long getPhonenumber() {
 		return phonenumber;
 	}
-	public void setPhonenumber(long phonenumber) {
-		this.phonenumber = phonenumber;
-	}
-	
-	
-	
-	
-
 }

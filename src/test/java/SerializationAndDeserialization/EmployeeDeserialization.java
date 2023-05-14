@@ -24,5 +24,4 @@ public class EmployeeDeserialization {
 		System.out.println(data.getMailid());
 		System.out.println(data.getPhonenumber());
 	}
-
 }

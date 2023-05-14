@@ -21,9 +21,7 @@ public class SerializationWithObjectSpouse {
 		
 		EmployeeDetailsWithObjectSpouse objArr = new EmployeeDetailsWithObjectSpouse("Aney",94970930,sp);
 		ObjectMapper omap = new ObjectMapper();
-		omap.writeValue(new File("./objArray.json"),objArr);
-		
-		
+		omap.writeValue(new File("./objArray.json"),objArr);	
 	}
 
 }
