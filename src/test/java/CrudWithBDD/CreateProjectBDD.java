@@ -36,7 +36,7 @@ public class CreateProjectBDD {
 		.contentType(ContentType.JSON)
 		
 		.when()
-		.post("/addProject")
+		.post("/Project")
 		.then()
 		.assertThat()
 	 	.statusCode(201)

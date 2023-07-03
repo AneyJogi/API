@@ -36,7 +36,7 @@ public class UpdateProject {
 		//Step 3: Validate the response
 		
 		
-		response.then().log().all();
+ 		response.then().log().all();
 	    int actStatus=response.getStatusCode();
         Assert.assertEquals(200, actStatus);
 

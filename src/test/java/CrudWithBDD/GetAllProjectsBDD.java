@@ -17,7 +17,6 @@ public class GetAllProjectsBDD {
 		when()
 		.get("/projects")
 		.then()
-		.assertThat()
 		.statusCode(200)
 		.contentType(ContentType.JSON)
 		.log().all();

@@ -20,6 +20,7 @@ public class SerializationWithObjectSpouse {
 		Spouse sp = new Spouse("Alwin",mobNo);
 		
 		EmployeeDetailsWithObjectSpouse objArr = new EmployeeDetailsWithObjectSpouse("Aney",94970930,sp);
+		//EmployeeDetailsWithObjectSpouse objArr1 = new EmployeeDetailsWithObjectSpouse("alwin",94970930,sp);
 		ObjectMapper omap = new ObjectMapper();
 		omap.writeValue(new File("./objArray.json"),objArr);	
 	}

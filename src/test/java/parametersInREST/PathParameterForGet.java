@@ -14,7 +14,7 @@ public class PathParameterForGet {
 		
 		//pre-requisites
 		given()
-		.pathParam("pid", "TY_PROJ_5565")
+		.pathParam("pid", "7102")
 		
 		//actions
 		.when()

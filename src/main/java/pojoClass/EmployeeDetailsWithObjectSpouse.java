@@ -10,7 +10,7 @@ public class EmployeeDetailsWithObjectSpouse{
 	public EmployeeDetailsWithObjectSpouse(String name, long mobNo, Spouse spouse) {
 		this.name = name;
 		this.mobNo = mobNo;
-		
+		this.spouse=spouse;
 	}
 
 	public EmployeeDetailsWithObjectSpouse() {

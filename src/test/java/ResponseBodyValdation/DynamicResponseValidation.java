@@ -15,14 +15,14 @@ import static io.restassured.RestAssured.*;
 public class DynamicResponseValidation {
 		@Test
 		public void dynamicRespVali() {
-			String expData="TY_PROJ_5082";
+			String expData="TY_PROJ_7102";
 			baseURI="http://rmgtestingserver";
 			port=8084;
 			
 		
 			//Actions
 			Response resp = when()
-			.get("/projects");
+			.get("/projects  ");
 			
 			//validation
 			boolean flag= false;

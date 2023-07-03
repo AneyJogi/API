@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="authentication.Auth2point0">
+      <class name="SerializationAndDeserialization.SerializationWithObjectSpouse">
         <methods>
-          <include name="auth2_0"/>
+          <include name="employSerial"/>
         </methods>
-      </class> <!-- authentication.Auth2point0 -->
+      </class> <!-- SerializationAndDeserialization.SerializationWithObjectSpouse -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
